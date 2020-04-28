@@ -1,1 +1,1 @@
-# COVID19-IntraModel-Variability
+# COVID19 IntraModel Variability
