@@ -4,10 +4,20 @@ X-ray and computed tomography (CT) scanning technologies for COVID-19 screening 
 
 # Results
 
-Performance metrics for all trained models (on average) shown in Table 1. Model weights can be accessed via:  
+Performance metrics for all trained models (on average) shown in Table 1. These _model weights_ and _training/testing data_ from the published study can be accessed and downloaded via:  
 
 __<a href="https://covidresearch.ai/datasets/dataset?id=2#2Files">covidresearch.ai</a>__
 
+Cite our paper:
+```
+@misc{goodwin2020intramodelvar,
+    title={Intra-model Variability in COVID-19 Classification Using Chest X-ray Images},
+    author={Brian D Goodwin and Corey Jaskolski and Can Zhong and Herick Asmani},
+    year={2020},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI}
+}
+```
 <table>
 <caption>Table 1 Average performance metrics by model architecture. Note that all metrics except ACC, which is multiclass accuracy, are for COVID-19 detection only (i.e., binary classification). TPR: true positive rate (or recall); FPR: false positive rate; FNR: false negative rate; PPV: positive predictive value (or precision); F1: F1-score; ACC: overall accuracy (TP+TN)/n.</caption>
  <thead>
