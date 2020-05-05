@@ -2,13 +2,11 @@
 
 X-ray and computed tomography (CT) scanning technologies for COVID-19 screening have gained significant traction in AI research since the start of the coronavirus pandemic. Despite these continuous advancements for COVID-19 screening, many concerns remain about model reliability when used in a clinical setting. Much has been published, but with limited transparency in expected model performance. We set out to address this limitation through a set of experiments to quantify baseline performance metrics and variability for COVID-19 detection in chest x-ray for 12 common deep learning architectures. Specifically, we adopted an experimental paradigm controlling for train-validation-test split and model architecture where the source of prediction variability originates from model weight initialization, random data augmentation transformations, and batch shuffling. Each model architecture was trained 5 separate times on identical train-validation-test splits of a publicly available x-ray image dataset provided by Cohen et al. (2020). Results indicate that even within model architectures, model behavior varies in a meaningful way between trained models. Best performing models achieve a false negative rate of 3 out of 20 for detecting COVID-19 in a hold-out set. While these results show promise in using AI for COVID-19 screening, they further support the urgent need for diverse medical imaging datasets for model training in a way that yields consistent prediction outcomes. It is our hope that these modeling results accelerate work in building a more robust dataset and a viable screening tool for COVID-19.
 
-# Results
+## Citation
 
-Performance metrics for all trained models (on average) shown in Table 1. These _model weights_ and _training/testing data_ from the published study can be accessed and downloaded via:  
+The work described here has been __<a href="https://arxiv.org/search/cs?query=Intra-model+Variability+in+COVID-19+Classification+Using+Chest+X-ray+Images&searchtype=all&abstracts=show&order=-announced_date_first&size=50">published on arXiv</a>__.
 
-__<a href="https://covidresearch.ai/datasets/dataset?id=2#2Files">covidresearch.ai</a>__
-
-Cite our paper:
+Cite our work (BibTeX):
 ```
 @misc{goodwin2020intramodelvar,
     title={Intra-model Variability in COVID-19 Classification Using Chest X-ray Images},
@@ -18,6 +16,19 @@ Cite our paper:
     primaryClass={cs.AI}
 }
 ```
+
+Performance metrics for all trained models (on average) shown in the table below. These _model weights_ and _training/testing data_ from the published study can be accessed and downloaded via 
+
+__<a href="https://covidresearch.ai/datasets/dataset?id=2#2Files">covidresearch.ai</a>__
+
+and code is available via
+
+__<a href="https://github.com/synthetaic/COVID19-IntraModel-Variability">github.com/synthetaic</a>__
+
+# Results
+
+Refer to our publication for results and details regarding the variability between networks and other performance metrics. Otherwise, the table below highlights key performance metrics on existing x-ray dataset for detecting COVID-19. However, since the publication of this work, the __<a href="https://github.com/ieee8023/covid-chestxray-dataset">dataset</a>__ sample size has increased.
+
 <table>
 <caption>Table 1 Average performance metrics by model architecture. Note that all metrics except ACC, which is multiclass accuracy, are for COVID-19 detection only (i.e., binary classification). TPR: true positive rate (or recall); FPR: false positive rate; FNR: false negative rate; PPV: positive predictive value (or precision); F1: F1-score; ACC: overall accuracy (TP+TN)/n.</caption>
  <thead>
