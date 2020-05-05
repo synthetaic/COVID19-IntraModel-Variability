@@ -25,6 +25,10 @@ and code is available via
 
 __<a href="https://github.com/synthetaic/COVID19-IntraModel-Variability">github.com/synthetaic</a>__
 
+# Using the Notebooks
+
+These notebooks are designed to walk you through training networks and/or loading in pre-trained model weights from the study. Download the dataset used for scoring at <a href="https://covidresearch.ai/datasets/dataset?id=2#2Files">covidresearch.ai</a>, which contains the train-validation-test split with 20 COVID-19 positive patient images held out in the test set. We've provided comments in each of the notebooks to help explain the process for each code chunk.
+
 # Results
 
 Refer to our publication for results and details regarding the variability between networks and other performance metrics. Otherwise, the table below highlights key performance metrics on existing x-ray dataset for detecting COVID-19. However, since the publication of this work, the __<a href="https://github.com/ieee8023/covid-chestxray-dataset">dataset</a>__ sample size has increased.
