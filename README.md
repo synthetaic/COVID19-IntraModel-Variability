@@ -4,16 +4,17 @@ X-ray and computed tomography (CT) scanning technologies for COVID-19 screening 
 
 ## Citation
 
-The work described here has been __<a href="https://arxiv.org/search/cs?query=Intra-model+Variability+in+COVID-19+Classification+Using+Chest+X-ray+Images&searchtype=all&abstracts=show&order=-announced_date_first&size=50">published on arXiv</a>__.
+The work described here has been __<a href="https://arxiv.org/abs/2005.02167">published on arXiv</a>__.
 
 Cite our work (BibTeX):
 ```
-@misc{goodwin2020intramodelvar,
+@misc{goodwin2020intramodel,
     title={Intra-model Variability in COVID-19 Classification Using Chest X-ray Images},
     author={Brian D Goodwin and Corey Jaskolski and Can Zhong and Herick Asmani},
     year={2020},
+    eprint={2005.02167},
     archivePrefix={arXiv},
-    primaryClass={cs.AI}
+    primaryClass={eess.IV}
 }
 ```
 
