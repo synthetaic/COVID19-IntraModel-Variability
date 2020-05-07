@@ -20,7 +20,7 @@ Cite our work (BibTeX):
 
 Performance metrics for all trained models (on average) shown in the table below. These _model weights_ and _training/testing data_ from the published study can be accessed and downloaded via 
 
-__<a href="https://covidresearch.ai/datasets/dataset?id=2#2Files">covidresearch.ai</a>__
+__<a href="https://covidresearch.ai/datasets/dataset?id=2">covidresearch.ai</a>__
 
 and code is available via
 
