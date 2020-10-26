@@ -4,7 +4,7 @@ X-ray and computed tomography (CT) scanning technologies for COVID-19 screening 
 
 ## Citation
 
-The work described here has been __<a href="https://arxiv.org/abs/2005.02167">published on arXiv</a>__.
+The work described here has been __<a href="https://arxiv.org/abs/2005.02167">published on arXiv</a>__, and was carried out by the team at __[Synthetaic](http://synthetaic.com/)__.
 
 Cite our work (BibTeX):
 ```
